@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Excel Academy Tutoring</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #1e3a8a;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #1e3a8a;
+      margin-bottom: 1.5rem;
+    }
+    .services, .pricing, .about, .contact {
+      background: #f9f9f9;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .pricing-table {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .pricing-card {
+      background: white;
+      padding: 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .pricing-card h3 {
+      color: #1e3a8a;
+      margin-bottom: 0.5rem;
+    }
+    .business-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+    .business-cards img {
+      max-width: 450px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    button {
+      background: #1e3a8a;
+      color: white;
+      border: none;
+      padding: 0.6rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #153075;
+    }
+  </style>
+</head>
+<body>
+   <header>
+    <h1>Excel Academy</h1>
+    <p>Math & English Tutoring for Primary Students (Preschool – Year 6)</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <p>At <strong>Excel Academy</strong>, we help primary students (Preschool to Year 6) improve in 
+       <b>Math</b> and <b>English</b>. We focus on homework help, skill-building, and boosting 
+       confidence in class. </p>
+    <ul>
+      <li>✔ Homework Help</li>
+      <li>✔ English (Reading, Writing, Grammar)</li>
+      <li>✔ Math (Basics to Year 6 level)</li>
+      <li>✔ Online or In-person Sessions</li>
+      <li>✔ Weekend Availability</li>
+    </ul>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-table">
+      <div class="pricing-card">
+        <h3>$35</h3>
+        <p>Per Hour</p>
+      </div>
+      <div class="pricing-card">
+        <h3>$50</h3>
+        <p>2 Hours</p>
+      </div>
+      <div class="pricing-card">
+        <h3>$300</h3>
+        <p>Unlimited Monthly Sessions</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>About Me
+
+Hello! My name is Syed Ali Ahsan, and I am a dedicated and enthusiastic tutor with a growing passion for helping students achieve their academic goals. I am currently in the early stages of my tutoring journey, but I bring a strong commitment to supporting children in their learning.
+
+Academically, I am a high-achieving student myself, consistently earning mostly A’s and B’s, with numerous A+ grades. This academic success reflects my dedication, discipline, and understanding of effective study strategies, which I bring into my tutoring sessions.
+
+I am widely regarded as a positive role model by my peers, teachers, and those I work with. Known for my maturity, patience, and supportive nature, I create a learning environment where students feel encouraged, confident, and motivated to succeed. I am constantly striving for personal growth and improvement, which allows me to continually enhance the guidance I provide to my students.
+
+Teaching has long been a career interest of mine, and tutoring offers an excellent opportunity to gain valuable experience while making a real difference in students’ academic journeys. I am committed to fostering understanding, building skills, and helping each student reach their full potential.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>If you’d like to book a session or learn more, feel free to reach out:</p>
+    <p><b>📍 Address:</b> 31 Kentish Road, Elizabeth Downs</p>
+    <p><b>📧 Email:</b> <a href="mailto:SyedAlaay@gmail.com">SyedAlaay@gmail.com</a></p>
+    <p><b>📞 Phone:</b> <a href="tel:0415555698">0415 555 698</a></p>
+    <p><i>Available on weekends. Online and in-person sessions only (no home visits).</i></p>
+    <button onclick="window.location.href='mailto:SyedAlaay@gmail.com'">Message Me</button>
+
+    <div class="business-cards">
+  	<img src="excelfront.png" alt="Excel Academy Business Card Front">
+  	<img src="excelback.png" alt="Excel Academy Business Card Back">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Excel Academy | Primary School Tutoring</p>
+  </footer>
+
+</body>
+</html>
